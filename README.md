@@ -1,6 +1,8 @@
 # Slurm Script Arguments
 
-These scripts are used to launch training runs on a Slurm-managed cluster. It takes several arguments to configure the training process.
+Scripts for virtual environment creation are in this repository.
+
+There are also scripts are used to launch training runs on a Slurm-managed cluster. It takes several arguments to configure the training process.
 
 NOTE: there are several placholders throughout the run scripts that should be replaced appropriately.
 

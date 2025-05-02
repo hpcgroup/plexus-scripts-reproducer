@@ -44,8 +44,8 @@ elif [ "${rocm_version}" == 6.2.4  ]; then
 	pip install --upgrade numpy
 fi
 
-pip install numpy
 pip install torch_geometric
+pip install numpy
 pip install axonn
 pip install ogb
 

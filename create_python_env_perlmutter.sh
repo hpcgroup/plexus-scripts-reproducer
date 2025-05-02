@@ -23,11 +23,11 @@ source $WRKSPC/$ENV_NAME/bin/activate
 
 #Step 2 - install torch
 pip install --upgrade pip
-pip install axonn
-pip install numpy
-pip install ogb
 pip install torch
-pip install axonn numpy ogb torch torch_geometric
+pip install torch_geometric
+pip install numpy
+pip install axonn
+pip install ogb
 
 
 echo -e "${RED}Your Python Environment is ready. To activate it run the following commands in the SAME order:${NC}"
