@@ -12,9 +12,13 @@ module load libtool
 export ROCM_PATH="/opt/rocm-${rocm_version}/"
 
 PROJ_NAME="csc547"
+
+# change as needed
 export WRKSPC=/lustre/orion/$PROJ_NAME/scratch/$USER
 mkdir -p $WRKSPC
 cd $WRKSPC
+
+# change as needed
 ENV_NAME="my-venv"
 ENV_LOC="$WRKSPC/$ENV_NAME"
 
